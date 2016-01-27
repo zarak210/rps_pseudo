@@ -13,6 +13,11 @@ loses = 0
 	puts "chose-rock, paper, or scissors?"
 	chose = gets. chomp
 	#Get user input, set to variable choice
+	for (rock, paper, scissors)
+	do 
+		command1 
+		command2
+		command3
 
 	#Get random selection from an array, set to variable comp
 
