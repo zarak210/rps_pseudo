@@ -9,15 +9,15 @@ loses = 0
 
 
 #Iterate Three times do 
-	#Display, chose Rock, Paper or Scissors
-	puts "chose-rock, paper, or scissors?"
-	chose = gets. chomp
-	#Get user input, set to variable choice
-	for (rock, paper, scissors)
+for (rock, paper, scissors)
 	do 
 		command1 
 		command2
 		command3
+	#Display, chose Rock, Paper or Scissors
+	puts "chose-rock, paper, or scissors?"
+	chose = gets. chomp
+	#Get user input, set to variable choice
 
 	#Get random selection from an array, set to variable comp
 
@@ -25,17 +25,17 @@ loses = 0
 if both choices the same 
 then puts draw
 elsif computer has rock and human has paper		
-	add point for win
+	then win = +1
 elsif computer has rock and human has scissors
-	add point for loses
+	then loss = +1 
 elsif computer has scissors and human has rock 
-	add point for win
+	then win = +1
 elsif computer has scissors and human has paper
-	add point for loses
+	then loss = +1
 elsif computer has paper and human has rock 
-	add point for loses
+	then win = +1 
 elsif computer has paper and human has scissors
-	add point for win
+	then win = +1 
 if wins > loses
 		display "You Win!"
 if wins < loses 
