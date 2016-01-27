@@ -1,7 +1,9 @@
 wins = 0
 loses = 0
 
+	3.times do
 	options = ['rock', 'paper', 'scissors']
+	
 		puts options 
 		puts options [0]
 		puts options [1]
@@ -24,6 +26,9 @@ elsif computer has paper and human has rock
 	then win = +1 
 elsif computer has paper and human has scissors
 	then win = +1 
+end 
+end 
+
 if wins > loses
 		display "You Win!"
 if wins < loses 
