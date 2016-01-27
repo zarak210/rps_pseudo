@@ -2,7 +2,7 @@ wins = 0
 loses = 0
 
 	3.times do
-	options = ['rock', 'paper', 'scissors']
+	options = ['rock', 'paper', 'scissors'] 
 	
 		puts options 
 		puts options [0]
