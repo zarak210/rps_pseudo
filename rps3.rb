@@ -9,11 +9,12 @@ loses = 0
 
 
 #Iterate Three times do 
-for (rock, paper, scissors)
-	do 
-		command1 
-		command2
-		command3
+	options = ['rock', 'paper', 'scissors']
+		puts options 
+		puts options [0]
+		puts options [1]
+		puts options [2]
+		
 	#Display, chose Rock, Paper or Scissors
 	puts "chose-rock, paper, or scissors?"
 	chose = gets. chomp
@@ -61,7 +62,4 @@ end
 	#Display You win
 #Else
 	#Display You Lose
-
-
-#### BONUS #### 
-	#Display History of Moves at end
+end
