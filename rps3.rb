@@ -15,17 +15,17 @@ loses = 0
 if both choices the same 
 then puts draw
 elsif computer has rock and human has paper		
-	then win = +1
+	then, win = +1
 elsif computer has rock and human has scissors
 	then loss = +1 
 elsif computer has scissors and human has rock 
 	then win = +1
 elsif computer has scissors and human has paper
-	then loss = +1
+	then, loss = +1
 elsif computer has paper and human has rock 
-	then win = +1 
+	then, win = +1 
 elsif computer has paper and human has scissors
-	then win = +1 
+	then, win = +1 
 end 
 end 
 
