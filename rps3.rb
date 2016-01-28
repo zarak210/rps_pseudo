@@ -16,11 +16,11 @@ loses = 0
 	elsif options = "scissors" && chose == "rock" 
 	then win = +1
 	elsif options = "scissors" && chose == "paper"
-	then, loss = +1
+	then loss = +1
 	elsif options == "paper" && chose == "rock" 
-	then, win = +1 
+	then win = +1 
 	elsif options == "paper" && chose == "scissors"
-	then, win = +1 
+	then win = +1 
 	end
  
 end 
