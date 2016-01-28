@@ -27,6 +27,7 @@ end
 
 if wins > loses
 		display "You Win!"
-if wins < loses 
+
+elsif if wins < loses 
 	display "You Lose!"
 end
